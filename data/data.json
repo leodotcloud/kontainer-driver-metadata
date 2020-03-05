@@ -4208,7 +4208,24 @@
    "managed": true,
    "minKubernetesVersion": "1.13",
    "skippedChecks": {},
-   "notApplicableChecks": {}
+   "notApplicableChecks": {
+    "1.4.1": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.13": "RKE does not store the kubernetes default kubeconfig credentials file on the nodes.",
+    "1.4.14": "RKE does not store the kubernetes default kubeconfig credentials file on the nodes.",
+    "1.4.2": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.3": "Cluster provisioned by RKE doesn't require or maintain a configuration file for controller-manager.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.4": "Cluster provisioned by RKE doesn't require or maintain a configuration file for controller-manager.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.5": "Cluster provisioned by RKE doesn't require or maintain a configuration file for scheduler.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.6": "Cluster provisioned by RKE doesn't require or maintain a configuration file for scheduler.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.7": "Cluster provisioned by RKE doesn't require or maintain a configuration file for etcd.\nAll configuration is passed in as arguments at container run time.",
+    "1.4.8": "Cluster provisioned by RKE doesn't require or maintain a configuration file for etcd.\nAll configuration is passed in as arguments at container run time.",
+    "2.1.12": "Certificate Rotation is handled by RKE directly.",
+    "2.1.13": "Certificate Rotation is handled by RKE directly.",
+    "2.2.10": "RKE doesn’t require or maintain a configuration file for the kubelet.\nAll configuration is passed in as arguments at container run time.",
+    "2.2.3": "RKE doesn’t require or maintain a configuration file for the kubelet service.\nAll configuration is passed in as arguments at container run time.",
+    "2.2.4": "RKE doesn’t require or maintain a configuration file for the kubelet service.\nAll configuration is passed in as arguments at container run time.",
+    "2.2.9": "RKE doesn’t require or maintain a configuration file for the kubelet.\nAll configuration is passed in as arguments at container run time."
+   }
   },
   "rke-cis-1.5": {
    "managed": true,

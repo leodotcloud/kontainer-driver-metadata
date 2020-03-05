@@ -4223,13 +4223,23 @@
    },
    "notApplicableChecks": {
     "1.1.1": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
+    "1.1.13": "RKE does not store the kubernetes default kubeconfig credentials file on the nodes.",
+    "1.1.14": "RKE does not store the kubernetes default kubeconfig credentials file on the nodes.",
+    "1.1.15": "Cluster provisioned by RKE doesn't require or maintain a configuration file for scheduler.\nAll configuration is passed in as arguments at container run time.",
+    "1.1.16": "Cluster provisioned by RKE doesn't require or maintain a configuration file for scheduler.\nAll configuration is passed in as arguments at container run time.",
+    "1.1.17": "Cluster provisioned by RKE doesn't require or maintain a configuration file for controller-manager.\nAll configuration is passed in as arguments at container run time.",
+    "1.1.18": "Cluster provisioned by RKE doesn't require or maintain a configuration file for controller-manager.\nAll configuration is passed in as arguments at container run time.",
     "1.1.2": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
     "1.1.3": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
     "1.1.4": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
     "1.1.5": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
     "1.1.6": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
     "1.1.7": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
-    "1.1.8": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time."
+    "1.1.8": "Cluster provisioned by RKE doesn't require or maintain a configuration file for kube-apiserver.\nAll configuration is passed in as arguments at container run time.",
+    "4.1.1": "RKE doesn’t require or maintain a configuration file for the kubelet service.\nAll configuration is passed in as arguments at container run time.",
+    "4.1.10": "RKE doesn’t require or maintain a configuration file for the kubelet.\nAll configuration is passed in as arguments at container run time.",
+    "4.1.2": "RKE doesn’t require or maintain a configuration file for the kubelet service.\nAll configuration is passed in as arguments at container run time.",
+    "4.1.9": "RKE doesn’t require or maintain a configuration file for the kubelet.\nAll configuration is passed in as arguments at container run time."
    }
   }
  },
